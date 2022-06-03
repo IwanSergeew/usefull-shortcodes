@@ -2,9 +2,9 @@ use Cloudinary\Cloudinary;
 
 $cloudinary = new Cloudinary([
     'cloud' => [
-        'cloud_name' => 'do1nsnut9', 
-        'api_key' => '144133166887235', 
-        'api_secret' => 'SZvOBbcTTqbsmRbwfheqf0nC0xY'
+        'cloud_name' => '', 
+        'api_key' => '', 
+        'api_secret' => ''
     ],
     'url' => [
         'secure' => true
