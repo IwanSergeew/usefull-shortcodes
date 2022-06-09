@@ -5,10 +5,12 @@
 
     $config = ['keyFilePath' => 'key.json']; // Generate the json key file from https://console.cloud.google.com/iam-admin/serviceaccounts
     $text = "The text to translate.";
+    $sourceLanguage = "en";
     $targetLanguage = "bg";
 
     $TranslateClient = new TranslateClient($config);
     $result = $TranslateClient->translate($text, [
+        "source" => $sourceLanguage,
         "target" => $targetLanguage,
     ]);
     var_dump($result); // array(4) { ["source"]=> string(2) "en" ["input"]=> string(22) "The text to translate." ["text"]=> string(33) "Текстът за превод." ["model"]=> NULL }
