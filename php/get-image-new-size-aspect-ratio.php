@@ -1,5 +1,5 @@
 <?php
-    function getFixedAspectRatio($image, $max_height, $max_width) {
+    function getFixedAspectRatio($image, $max_width, $max_height) {
         list($width, $height, $type, $attr) = getimagesize($image);
         $new_height = $max_height;
         $new_width = intval(($width / $height) * $new_height);
