@@ -9,3 +9,6 @@
 
 ## [Image To Text](https://github.com/Tw1ster95/usefull-shortcodes/blob/main/css/image-to-text.html)
 ![App Screenshot](https://gcdnb.pbrd.co/images/MXksZ5R9Gl6S.png?o=1)
+
+## [Icons Rotating In Circle Animation](https://github.com/Tw1ster95/usefull-shortcodes/blob/main/css/icons-rotating-in-circle-animation.html)
+![App Screenshot](https://gcdnb.pbrd.co/images/C1TGfMGZKeKG.gif?o=1)
