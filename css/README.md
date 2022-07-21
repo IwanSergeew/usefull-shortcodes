@@ -15,3 +15,6 @@
 
 ## [Button Wiggle Animation](https://github.com/Tw1ster95/usefull-shortcodes/blob/main/css/button-wiggle-animation.html)
 ![App Screenshot](https://gcdnb.pbrd.co/images/dGX6HqLENwxO.gif?o=1)
+
+## [Hover With Shadow Animation](https://github.com/Tw1ster95/usefull-shortcodes/blob/main/css/hover-with-shadow-animation.html)
+![App Screenshot](https://gcdnb.pbrd.co/images/Z83LE0gKDODA.gif?o=1)
