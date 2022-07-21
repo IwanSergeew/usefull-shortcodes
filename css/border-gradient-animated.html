@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <style>
+            .container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                height: 250px;
+                width: 180px;
+                background:#191919;
+                border-radius : 16px;
+                overflow: hidden;
+            }
+            .container::before {
+                content: '';
+                position: absolute;
+                width: 50%;
+                height: 200%;
+                background: linear-gradient(
+                    #08e5ff, #b480fb
+                );
+                transform: rotate(360deg);
+                animation: animate 5s linear infinite;
+            }
+            @keyframes animate {
+                0% {
+                    transform: rotate(0deg);
+                };
+                100% {
+                    transform: rotate(360deg);
+                };
+            }
+            .container::after {
+                content: '';
+                position: absolute;
+                background : #191919;
+                inset: 3px;
+                border-radius : 5px;
+            }
+            .container span {
+                color: #fff;
+                z-index: 1;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <span>CARD</span>
+        </div>
+    </body>
+</html>
