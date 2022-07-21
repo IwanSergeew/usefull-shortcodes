@@ -6,3 +6,6 @@
 
 ## [Text Blend Mode](https://github.com/Tw1ster95/usefull-shortcodes/blob/main/css/text-blend-mode.html)
 ![App Screenshot](https://gcdnb.pbrd.co/images/YaMa62KikVX8.png?o=1)
+
+## [Image To Text](https://github.com/Tw1ster95/usefull-shortcodes/blob/main/css/image-to-text.html)
+![App Screenshot](https://gcdnb.pbrd.co/images/MXksZ5R9Gl6S.png?o=1)
