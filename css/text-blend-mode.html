@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <style>
+            body {
+                background-color: #111827;
+                color: white;
+            }
+        
+            .container {
+                position: relative;
+                font-size: 5rem;
+                color: white;
+            }
+        
+            .container span {
+                mix-blend-mode: difference;
+            }
+        
+            .container::after {
+                content: '';
+                position: absolute;
+                left: 20px;
+                top: 0;
+                height: 100%;
+                aspect-ratio: 1;
+                background-color: white;
+                z-index: -1;
+                color: black;
+                overflow: hidden;
+            }
+        </style>
+    </head>
+        
+    <body>
+        <div class="container">
+            <span>Hello World!</span>
+        </div>
+    </body>
+</html>
