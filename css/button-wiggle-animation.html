@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+        <style>
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #111827;
+                color: white;
+            }
+        
+            .container {
+                position: relative;
+                width: 300px;
+                aspect-ratio: 1;
+                background: yellow;
+            }
+
+            .container button {
+                font-size: 2em;
+                border-width: 1px;
+                border-style: solid;
+                border-color: rgb(75, 75, 75);
+                border-top-color: rgb(194, 126, 0);
+                border-top-width: 2px;
+                padding: .5em;
+                background-color: rgb(75, 75, 75);
+                color: rgb(201, 201, 201);
+                transform-origin: 50% 3em;
+            }
+
+            .container button.wiggle {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                animation: wiggle 5000ms ease-in-out infinite;
+            }
+
+            @keyframes wiggle {
+                0%, 10% {
+                    transform: translate(-50%, -50%) rotate(0deg);
+                }
+                12% {
+                    transform: translate(-50%, -50%) rotate(-10deg);
+                }
+                14% {
+                    transform: translate(-50%, -50%) rotate(10deg);
+                }
+                16% {
+                    transform: translate(-50%, -50%) rotate(-10deg);
+                }
+                18% {
+                    transform: translate(-50%, -50%) rotate(10deg);
+                }
+                20%, 100% {
+                    transform: translate(-50%, -50%) rotate(0deg);
+                }
+            }
+        
+        </style>
+    </head>
+        
+    <body>
+        <div class="container">
+            <button class="wiggle">Sumbit</button>
+        </div>
+    </body>
+</html>
