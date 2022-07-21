@@ -12,3 +12,6 @@
 
 ## [Icons Rotating In Circle Animation](https://github.com/Tw1ster95/usefull-shortcodes/blob/main/css/icons-rotating-in-circle-animation.html)
 ![App Screenshot](https://gcdnb.pbrd.co/images/C1TGfMGZKeKG.gif?o=1)
+
+## [Button Wiggle Animation](https://github.com/Tw1ster95/usefull-shortcodes/blob/main/css/button-wiggle-animation.html)
+![App Screenshot](https://gcdnb.pbrd.co/images/dGX6HqLENwxO.gif?o=1)
