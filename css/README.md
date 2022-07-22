@@ -21,3 +21,6 @@
 
 ## [Folded Corner Note](https://github.com/Tw1ster95/usefull-shortcodes/blob/main/css/folded-corner-note.html)
 ![App Screenshot](https://i.ibb.co/L933T9g/image.png)
+
+## [Day Night Switch Full Page](https://github.com/Tw1ster95/usefull-shortcodes/blob/main/css/day-night-switch-fullpage.html)
+![App Screenshot](https://gcdnb.pbrd.co/images/1TJwMZwNexdH.gif?o=1)
