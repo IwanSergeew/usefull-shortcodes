@@ -19,5 +19,5 @@
 ## [Hover With Shadow Animation](https://github.com/Tw1ster95/usefull-shortcodes/blob/main/css/hover-with-shadow-animation.html)
 ![App Screenshot](https://gcdnb.pbrd.co/images/Z83LE0gKDODA.gif?o=1)
 
-## [Hover With Shadow Animation](https://github.com/Tw1ster95/usefull-shortcodes/blob/main/css/folded-corner-note.html)
+## [Folded Corner Note](https://github.com/Tw1ster95/usefull-shortcodes/blob/main/css/folded-corner-note.html)
 ![App Screenshot](https://i.ibb.co/L933T9g/image.png)
