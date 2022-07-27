@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+        <style>
+            body {
+                position: relative;
+                width: 100vw;
+                height: 100vh;
+                margin: 50px;
+                padding: 50px;
+            }
+
+            button {
+                border: unset;
+                user-select: none;
+                position: relative;
+                border-radius: 1em 1em 0 0;
+                padding: .5em 1em;
+                cursor: pointer;
+                margin: .5em;
+                background-color: #1874D2;
+                color: #FECC98;
+                font-weight: 700;
+                text-shadow: 1px 1px 1px #535461;
+                font-size: 2em;
+            }
+            button::before {
+                content: attr(data-text);
+                position: absolute;
+                bottom: -90%;
+                left: 0;
+                width: 100%;
+                border-radius: 1em 1em 0 0;
+                padding: .5em 0;
+                background-image: linear-gradient(transparent, #1874D2);
+                transform: rotate(180deg);
+                filter: blur(1px);
+                opacity: 0;
+                transition: opacity 200ms;
+            }
+            button:hover {
+                
+            }
+            button:hover::before {
+                opacity: .6;
+            }
+        </style>
+    </head>
+        
+    <body>
+        <button data-text="Toggle">Toggle</button>
+    </body>
+</html>
