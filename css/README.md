@@ -26,4 +26,4 @@
 ![App Screenshot](https://gcdnb.pbrd.co/images/1TJwMZwNexdH.gif?o=1)
 
 ## [Button Hover Reflection](https://github.com/Tw1ster95/usefull-shortcodes/blob/main/css/button-hover-reflection.html)
-![App Screenshot]([https://gcdnb.pbrd.co/images/1TJwMZwNexdH.gif?o=1](https://gcdnb.pbrd.co/images/uh0VgK63OsYO.gif?o=1))
+![App Screenshot](https://gcdnb.pbrd.co/images/uh0VgK63OsYO.gif?o=1)
