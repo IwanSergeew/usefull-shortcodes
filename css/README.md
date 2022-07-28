@@ -27,3 +27,6 @@
 
 ## [Button Hover Reflection](https://github.com/Tw1ster95/usefull-shortcodes/blob/main/css/button-hover-reflection.html)
 ![App Screenshot](https://gcdnb.pbrd.co/images/uh0VgK63OsYO.gif?o=1)
+
+## [Simple Clock CSS/JS](https://github.com/Tw1ster95/usefull-shortcodes/blob/main/css/simple-clock-css-js.html)
+![App Screenshot](https://gcdnb.pbrd.co/images/dk5KCF8j8AJC.gif?o=1)
