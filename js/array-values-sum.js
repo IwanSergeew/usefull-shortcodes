@@ -66,3 +66,11 @@ const results = new Array();
 
 results.sort((a, b) => b.time - a.time);
 results.forEach((r) => console.log(`(${r.total}) ${r.name}: ${r.time} ms`));
+
+
+"(5000000050000000) forEach: 1067 ms"
+"(5000000050000000) for of: 679 ms"
+"(5000000050000000) reduce: 577 ms"
+"(5000000050000000) while itterator: 519 ms"
+"(5000000050000000) while: 75 ms"
+"(5000000050000000) for: 74 ms"
